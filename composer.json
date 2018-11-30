@@ -1,0 +1,23 @@
+{
+    "name": "vasadibt/yii2-onesignal",
+    "description": "This is a restful api to onesignal.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","onesignal","restful","api", "notifications"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tamás Vasadi-Balogh",
+            "email": "vasadibt@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "symfony/options-resolver": "^3.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "vasadibt\\onesignal\\": "src"
+        }
+    }
+}

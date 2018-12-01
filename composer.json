@@ -4,6 +4,7 @@
     "type": "yii2-extension",
     "keywords": ["yii2","extension","onesignal","restful","api", "notifications"],
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Tamás Vasadi-Balogh",

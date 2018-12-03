@@ -1,9 +1,11 @@
 {
     "name": "vasadibt/yii2-onesignal",
     "description": "This is a restful api to onesignal.",
-    "type": "yii2-extension",
     "keywords": ["yii2","extension","onesignal","restful","api", "notifications"],
+    "homepage": "https://github.com/vasadibt/yii2-onesignal",
+    "type": "yii2-extension",
     "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Tamás Vasadi-Balogh",
@@ -19,7 +21,5 @@
         "psr-4": {
             "vasadibt\\onesignal\\": "src"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }

@@ -5,7 +5,8 @@
     "homepage": "https://github.com/vasadibt/yii2-onesignal",
     "type": "yii2-extension",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Tamás Vasadi-Balogh",

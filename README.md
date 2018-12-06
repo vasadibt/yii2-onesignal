@@ -2,6 +2,9 @@ Yii2 Onesignal api
 ==================
 This is a restful api to onesignal.
 
+[![Total Downloads](https://poser.pugx.org/vasadibt/yii2-onesignal/downloads)](https://packagist.org/packages/vasadibt/yii2-onesignal)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/vasadibt/yii2-onesignal/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/vasadibt/yii2-onesignal/?branch=master)
+
 Installation
 ------------
 

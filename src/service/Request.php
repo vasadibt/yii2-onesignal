@@ -124,7 +124,7 @@ class Request extends BaseObject
         if ($response instanceof ResponseInterface) {
             $body = $response->getBody();
             $response = static::isJson($body)
-                ? Json::encode(Json::decode($response), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
+                ? Json::encode(Json::decode($body), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
                 : $body;
         }
         return $response;

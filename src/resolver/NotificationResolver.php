@@ -59,6 +59,8 @@ class NotificationResolver extends BaseObject implements ResolverInterface
             ->setAllowedTypes('excluded_segments', 'array')
             ->setDefined('include_player_ids')
             ->setAllowedTypes('include_player_ids', 'array')
+            ->setDefined('include_external_user_ids')
+            ->setAllowedTypes('include_external_user_ids', 'array')
             ->setDefined('include_ios_tokens')
             ->setAllowedTypes('include_ios_tokens', 'array')
             ->setDefined('include_android_reg_ids')
